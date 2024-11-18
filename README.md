@@ -1,6 +1,5 @@
 # Poisson Distribution Generator using Inversion Method
 
-## Detailed Description
 This project implements an inversion method to generate random variables following a Poisson distribution with parameter λ. The uniform numbers generation is performed using the MRG32K3a generator.
 
 MRG32K3a is a combined pseudo-random number generator developed by Pierre L'Ecuyer (UdeM).
@@ -13,7 +12,7 @@ where m2 = 4294944443
 
 Final combination: un = ((xn - yn) mod m1) / m1
 
-## Inversion Method
+### Inversion Method
 The implemented method uses the principle of inverting the cumulative distribution function:
 1. Generation of a uniform number U on [0,1] using MRG32K3a
 2. Search for the smallest value k such that F(k) ≥ U
