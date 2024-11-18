@@ -29,7 +29,7 @@ import math            # Built-in mathematical functions
 import matplotlib.pyplot as plt   # Version 3.7.1 or higher
 import numpy as np              # Version 1.21.0 or higher
 from scipy.stats import poisson  # Version 1.7.0 or higher
-
+'''
 
 ### Source
 L'Ecuyer, P. (1999). "Good Parameters and Implementations for Combined Multiple Recursive Random Number Generators". Operations Research, 47(1), 159-164.
