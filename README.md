@@ -24,10 +24,10 @@ Two approaches are proposed:
 
 ### Required Libraries
 ```python
-import math            # Built-in mathematical functions
-import matplotlib.pyplot as plt   # Version 3.7.1 or higher
-import numpy as np              # Version 1.21.0 or higher
-from scipy.stats import poisson  # Version 1.7.0 or higher
+import matplotlib.pyplot as plt  
+import numpy as np             
+from scipy.stats import poisson
+from tqdm import tqdm
 ```
 
 ### Source
